@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "CabinetGrotesk-Black";
+  src: url(assets/CabinetGrotesk-Black.woff), url(assets/CabinetGrotesk-Black.woff2);
+}
+
+@font-face {
+  font-family: "CabinetGrotesk-Light";
+  src: url(assets/CabinetGrotesk-Light.woff),
+    url(assets/CabinetGrotesk-Light.woff2);
+}
+
+
+body {
+    /* vertical and horizontal alignment   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+  /* basic styling   */
+  
+  outline: 4px;
+  height: 400px;
+  width: 400px;
+  font-family: "CabinetGrotesk-Light", serif;
+  background-color: #a3babf;
+  border-radius: 20px;
+  color: #f5fdff;
+ 
+  /* change if you like */
+  text-align: center;
+}
+
+#city, #city2 {
+  font-family: "CabinetGrotesk-Black", serif;
+  color: black;
+}
+
+data {
+  /* remove or change value to `inline-block`   */
+  display: block;
+}
+
+/* second */
+
+body {
+    /* vertical and horizontal alignment   */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+main {
+  /* basic styling   */
+  outline: 4px solid black;
+  height: 400px;
+  width: 400px;
+  color: #333333;
+ 
+  /* change if you like */
+  text-align: center;
+}
+
+data {
+  /* remove or change value to `inline-block`   */
+  display: block;
+}
